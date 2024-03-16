@@ -4,3 +4,12 @@
     <img width="300" src="https://opencollective.com/public/images/opencollectivelogo.svg" alt="Open Collective">
   </a>
 </div>
+
+Build cmd
+```
+dotnet new console -n botOpenAI -o .
+
+dotnet build
+
+dotnet add package OpenAI
+```
